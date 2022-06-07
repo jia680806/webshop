@@ -15,3 +15,6 @@
 /webshop-manager-web/.classpath
 /webshop-parent/.project
 /webshop-parent/.settings
+/.recommenders
+/RemoteSystemsTempFiles
+/.metadata
