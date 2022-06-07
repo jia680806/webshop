@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <parent>
+	  <groupId>com.webshop</groupId>
+	  <artifactId>webshop-parent</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+	  <relativePath>../pom.xml</relativePath>
+  </parent>
+ 
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.webshop</groupId>
+  <artifactId>webshop-manager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+
+	<modules>
+	<module>../webshop-manager-mapper</module>
+	<module>../webshop-manager-pojo</module>
+	<module>../webshop-manager-service</module>
+	<module>../webshop-manager-web</module>
+	</modules>
+
+  
+  <!-- 
+  pom 聚合工程
+  jar 普通工程
+  war web工程
+  
+  子不能在父上面 
+  	    插件的引用  不能在包的引用上面
+  -->
+  <build>
+		<plugins>
+			<!-- 配置Tomcat插件 -->
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<port>8080</port>
+					<path>/</path>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+  
+  
+  
+</project>
