@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.text&apos; to &apos;com.test&apos;&#x0D;&#x0A;- Original project: &apos;webshop-manager-web&apos;&#x0D;&#x0A;- Original element: &apos;webshop-manager-web/src/main/java/com.text&apos;&#x0D;&#x0A;- Renamed element: &apos;webshop-manager-web/src/main/java/com.test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.text&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.text" name="com.test" qualified="false" references="true" stamp="1654625336181" textual="false" version="1.0"/>
+</session>
