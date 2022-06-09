@@ -8,8 +8,6 @@
   </parent>
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.webshop</groupId>
   <artifactId>webshop-manager-pojo</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   
 </project>
