@@ -11,14 +11,14 @@
   <artifactId>webshop-manager-web</artifactId>
   <packaging>war</packaging>
   
-  
-   <dependencies>
-  	<dependency>
-      <groupId>com.webshop</groupId>
-	  <artifactId>webshop-manager-service</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  <dependencies>
+  <dependency>
+  <groupId>com.webshop</groupId>
+  <artifactId>webshop-manager-service</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
   </dependencies>
+
   
   
 </project>

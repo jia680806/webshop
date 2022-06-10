@@ -19,6 +19,14 @@
 	<module>../webshop-manager-service</module>
 	<module>../webshop-manager-web</module>
 	</modules>
+	
+	<dependencies>
+	<dependency>
+	<groupId>com.webshop</groupId>
+	<artifactId>webshop-common</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	</dependencies>
 
   
   <!-- 

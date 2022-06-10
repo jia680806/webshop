@@ -10,6 +10,7 @@ import com.webshop.pojo.TbItem;
 import com.webshop.service.ItemService;
 
 @Controller
+@RequestMapping("manager")
 public class ItemController {
 	
 	@Autowired
