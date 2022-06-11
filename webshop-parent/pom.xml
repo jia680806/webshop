@@ -10,6 +10,7 @@
 	
 	<modules>
 	    <module>../webshop-manager</module>
+	    <module>../webshop-common</module>
 	</modules>
 
 	<properties>
@@ -100,7 +101,8 @@
 				<artifactId>mybatis-paginator</artifactId>
 				<version>${mybatis.paginator.version}</version>
 			</dependency>
-			
+
+
 			<!-- MySql -->
 			<dependency>
 				<groupId>mysql</groupId>

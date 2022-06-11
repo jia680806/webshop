@@ -6,12 +6,19 @@
 	  <version>0.0.1-SNAPSHOT</version>
 	  <relativePath>../webshop-parent/pom.xml</relativePath>
   </parent>
- 
+  
+
   
   <modelVersion>4.0.0</modelVersion>
   <artifactId>webshop-manager</artifactId>
   <packaging>pom</packaging>
-  
+     	<dependencies>
+	<dependency>
+	<groupId>com.webshop</groupId>
+	<artifactId>webshop-common</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	</dependencies>
 
 	<modules>
 	<module>../webshop-manager-mapper</module>
@@ -20,14 +27,9 @@
 	<module>../webshop-manager-web</module>
 	</modules>
 	
-	<dependencies>
-	<dependency>
-	<groupId>com.webshop</groupId>
-	<artifactId>webshop-common</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	</dependency>
-	</dependencies>
 
+
+ 
   
   <!-- 
   pom 聚合工程

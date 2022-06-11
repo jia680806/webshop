@@ -5,9 +5,7 @@
     <artifactId>webshop-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  	<groupId>com.webshop</groupId>
+  <groupId>com.webshop</groupId>
   <artifactId>webshop-common</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-
-  </project>
+  <version>0.0.1-SNAPSHOT</version>
+</project>
