@@ -13,11 +13,21 @@ public class PictureResult {
 	/**
 	 * 错误时的错误消息
 	 */
+	
+	
 	private String message;
-	public PictureResult(Integer state, String url) {
-		this.url = url;
-		this.error = state;
-	}
+	
+	//成功时调用的方法
+		public static PictureResult ok(String url) {
+			return new PictureResult(0, url, null);
+		}
+		//失败时调用的方法
+		public static PictureResult error(String message) {
+			return new PictureResult(1, null, message);
+		}
+
+	
+	
 	public PictureResult(Integer state, String url, String errorMessage) {
 		this.url = url;
 		this.error = state;

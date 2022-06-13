@@ -3,20 +3,23 @@ package com.webshop.service.impl;
 
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.webshop.common.pojo.PictureResult;
+import com.webshop.common.utils.PictureResult;
 import com.webshop.common.utils.ExceptionUtil;
 import com.webshop.common.utils.FtpUtil;
 import com.webshop.common.utils.IDUtils;
 import com.webshop.service.PictureService;
 
+
+@Service
 public class PictureServiceImpl implements PictureService {
 	@Value("${FTP_ADDRESS}")
 	private String FTP_ADDRESS;
 	@Value("${FTP_PORT}")
 	private Integer FTP_PORT;
-	@Value("${FTP_USER_NAME}")
+	@Value("${FTP_USERNAME}")
 	private String FTP_USER_NAME;
 	@Value("${FTP_PASSWORD}")
 	private String FTP_PASSWORD;

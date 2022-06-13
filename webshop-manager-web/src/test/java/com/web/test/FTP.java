@@ -21,7 +21,7 @@ public class FTP {
 		FileInputStream inputStream = new FileInputStream(new File(location));
 		//4、上传文件
 		//1）指定上传目录
-		ftpClient.changeWorkingDirectory("/home/ftpuser/ftp_directory/img");
+		ftpClient.changeWorkingDirectory("/meage");
 		//2）指定文件类型
 		ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
 		//第一个参数：文件在远程服务器的名称

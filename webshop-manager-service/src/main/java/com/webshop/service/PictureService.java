@@ -2,7 +2,7 @@ package com.webshop.service;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.webshop.common.pojo.PictureResult;
+import com.webshop.common.utils.PictureResult;
 
 public interface PictureService {
 
