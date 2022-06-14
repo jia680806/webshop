@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+
 import com.webshop.common.utils.PictureResult;
 import com.webshop.service.PictureService;
 
 @Controller
+@RequestMapping("manager")
 public class PictureController {
 	@Autowired
 	private PictureService pictureService;
@@ -19,6 +21,8 @@ public class PictureController {
 		PictureResult result = pictureService.uploadPicture(uploadFile);
 		return result;
 	}
+
+
 
 
 }
